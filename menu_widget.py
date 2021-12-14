@@ -26,7 +26,7 @@ class Window(QMainWindow):
         file_menu.addAction(action2_menu)
 
         action3_menu = QAction('Exit', self)
-        action3_menu.setIcon(QIcon('../logo.jpg'))
+        action3_menu.setIcon(QIcon('logo.jpg'))
         action3_menu.triggered.connect(self.exitFunc)
         
         file_menu.addAction(action3_menu)
