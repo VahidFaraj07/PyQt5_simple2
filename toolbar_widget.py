@@ -8,7 +8,7 @@ class Window(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setGeometry(150, 250, 500, 350)
-        self.setWindowTitle('Menu Bar Widget')
+        self.setWindowTitle('Toolbar Widget')
         self.UI()
         self.show()
 
