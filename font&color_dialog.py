@@ -43,9 +43,8 @@ class Window(QMainWindow):
             self.editor.setCurrentFont(my_font)
 
     def changeColor(self):
-        my_color, ok = QColorDialog.getColor()
-        if ok:
-            self.editor.setTextColor(my_color)
+        my_color = QColorDialog.getColor()
+        self.editor.setTextColor(my_color)
 
 
 
